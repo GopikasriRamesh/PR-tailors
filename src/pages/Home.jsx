@@ -5,16 +5,11 @@ import { Users, TrendingUp, Gift, Truck } from 'lucide-react'
 const Home = () => {
   return (
     <div className="bg-white">
-      {/* Hero Section */}
       <section className="w-full flex justify-center items-center px-4 pt-10">
         <div className="relative w-full max-w-7.2xl h-[600px] rounded-3xl overflow-hidden shadow-lg">
-          {/* Background Image */}
           <img src={img1} alt="home img" className="w-full h-full object-cover" />
-          
-          {/* Dark Overlay */}
           <div className="absolute inset-0 bg-black opacity-40"></div>
 
-          {/* Text Overlay */}
           <div className="absolute inset-0 flex items-center justify-center px-4">
             <div className="px-6 py-4 rounded-md">
               <p className="text-white text-3xl md:text-4xl font-bold text-center mb-110 mr-150 mt-0">

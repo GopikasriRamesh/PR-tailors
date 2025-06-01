@@ -8,9 +8,8 @@ const Navbar = () => {
   const navLinks = useMemo(() => [
     { label: 'Home', path: 'home' },
     { label: 'About', path: 'about' },
-    { label: 'Service', path: 'service' },
+    { label: 'Service', path: 'services' },
     { label: 'Portfolio', path: 'portfolio' },
-    { label: 'Testimonials', path: 'testimonials' },
     { label: 'Contact', path: 'contact' },
   ], []);
 

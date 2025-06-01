@@ -3,7 +3,7 @@ import waveTop from '../assets/wave.svg';
 import waveBottom from '../assets/wave-light.svg';
 import img1 from '../assets/pt 1.png';
 import img2 from '../assets/pt 2.png';
-import img3 from '../assets/pt 3.png'; // your blouse images
+import img3 from '../assets/pt 3.png'; 
 
 const Portfolio = () => {
   return (
